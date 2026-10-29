@@ -1,0 +1,51 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 842] /Resources << /Font << /F1 5 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 1225 >>
+stream
+BT
+/F1 14 Tf
+45 795 Td
+(AI-Assisted Proposal Triage - Process Flow) Tj
+0 -35 Td
+/F1 10 Tf
+(1. Reviewer uploads PDFs + selects category                              [HUMAN]) Tj
+0 -30 Td
+(2. Store original files + extract text + file hash                    [RULE / CODE]) Tj
+0 -30 Td
+(3. Load criteria + weights + criteria version                         [RULE / CODE]) Tj
+0 -30 Td
+(4. Extract structured evidence with source snippets                   [AI]) Tj
+0 -30 Td
+(5. Schema validation + prompt-injection / anomaly checks              [RULE / CODE]) Tj
+0 -30 Td
+(6. Mandatory eligibility gate                                         [RULE / CODE]) Tj
+0 -30 Td
+(7. Weighted scoring + sorting                                          [RULE / CODE]) Tj
+0 -30 Td
+(8. Review flags, evidence, scores and reasons                         [HUMAN]) Tj
+0 -30 Td
+(9. Confirm / correct / override with written reason                   [HUMAN]) Tj
+0 -30 Td
+(10. Save ranked output + complete audit record                        [RULE / CODE]) Tj
+0 -55 Td
+(If mandatory rule fails: status = INELIGIBLE) Tj
+0 -28 Td
+(If evidence is unsafe, missing or suspicious: status = FLAGGED) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+trailer
+<< /Root 1 0 R /Size 6 >>
+%%EOF
